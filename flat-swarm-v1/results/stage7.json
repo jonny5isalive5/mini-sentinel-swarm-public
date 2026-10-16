@@ -1,0 +1,122 @@
+{
+ "stage": 7,
+ "seed": 1,
+ "matrix": {
+  "normal": {
+   "expert_adversarial": 0.78,
+   "expert_edge": 0.73,
+   "expert_noisy": 0.7766666666666666,
+   "expert_normal": 0.8233333333333334,
+   "expert_shifted": 0.8266666666666667
+  },
+  "noisy": {
+   "expert_adversarial": 0.69,
+   "expert_edge": 0.6333333333333333,
+   "expert_noisy": 0.66,
+   "expert_normal": 0.71,
+   "expert_shifted": 0.71
+  },
+  "shifted": {
+   "expert_adversarial": 0.76,
+   "expert_edge": 0.7633333333333333,
+   "expert_noisy": 0.6766666666666666,
+   "expert_normal": 0.7966666666666666,
+   "expert_shifted": 0.8233333333333334
+  },
+  "edge": {
+   "expert_adversarial": 0.45666666666666667,
+   "expert_edge": 0.43333333333333335,
+   "expert_noisy": 0.4266666666666667,
+   "expert_normal": 0.47333333333333333,
+   "expert_shifted": 0.4766666666666667
+  },
+  "adversarial": {
+   "expert_adversarial": 0.6566666666666666,
+   "expert_edge": 0.6866666666666666,
+   "expert_noisy": 0.6666666666666666,
+   "expert_normal": 0.7233333333333334,
+   "expert_shifted": 0.6766666666666666
+  }
+ },
+ "swarm": {
+  "normal": {
+   "selected_histogram": {
+    "expert_noisy": 74,
+    "expert_edge": 66,
+    "expert_shifted": 54,
+    "expert_adversarial": 51,
+    "expert_normal": 54,
+    "null": 1
+   },
+   "accuracy_k1": 0.7633333333333333,
+   "accuracy_k3": 0.8233333333333334,
+   "unsupported": 0.0033333333333333335,
+   "oracle_best_expert": "expert_shifted",
+   "oracle_best_accuracy": 0.8266666666666667,
+   "normal_expert_accuracy": 0.8233333333333334
+  },
+  "noisy": {
+   "selected_histogram": {
+    "expert_shifted": 30,
+    "expert_noisy": 132,
+    "expert_edge": 55,
+    "expert_normal": 38,
+    "expert_adversarial": 43,
+    "null": 2
+   },
+   "accuracy_k1": 0.68,
+   "accuracy_k3": 0.7133333333333334,
+   "unsupported": 0.006666666666666667,
+   "oracle_best_expert": "expert_normal",
+   "oracle_best_accuracy": 0.71,
+   "normal_expert_accuracy": 0.71
+  },
+  "shifted": {
+   "selected_histogram": {
+    "expert_shifted": 254,
+    "expert_adversarial": 9,
+    "expert_edge": 19,
+    "expert_normal": 14,
+    "expert_noisy": 4
+   },
+   "accuracy_k1": 0.8166666666666667,
+   "accuracy_k3": 0.8433333333333334,
+   "unsupported": 0.0,
+   "oracle_best_expert": "expert_shifted",
+   "oracle_best_accuracy": 0.8233333333333334,
+   "normal_expert_accuracy": 0.7966666666666666
+  },
+  "edge": {
+   "selected_histogram": {
+    "expert_shifted": 81,
+    "expert_edge": 73,
+    "expert_normal": 53,
+    "expert_adversarial": 46,
+    "expert_noisy": 45,
+    "null": 2
+   },
+   "accuracy_k1": 0.43,
+   "accuracy_k3": 0.44333333333333336,
+   "unsupported": 0.006666666666666667,
+   "oracle_best_expert": "expert_shifted",
+   "oracle_best_accuracy": 0.4766666666666667,
+   "normal_expert_accuracy": 0.47333333333333333
+  },
+  "adversarial": {
+   "selected_histogram": {
+    "expert_edge": 67,
+    "expert_shifted": 51,
+    "expert_noisy": 69,
+    "expert_adversarial": 66,
+    "expert_normal": 46,
+    "null": 1
+   },
+   "accuracy_k1": 0.6666666666666666,
+   "accuracy_k3": 0.7133333333333334,
+   "unsupported": 0.0033333333333333335,
+   "oracle_best_expert": "expert_normal",
+   "oracle_best_accuracy": 0.7233333333333334,
+   "normal_expert_accuracy": 0.7233333333333334
+  }
+ }
+}

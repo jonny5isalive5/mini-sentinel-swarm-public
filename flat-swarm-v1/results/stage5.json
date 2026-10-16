@@ -1,0 +1,31 @@
+{
+ "stage": 5,
+ "seed": 1,
+ "measurements": {
+  "label": "10 specialists",
+  "specialists": 10,
+  "per_specialist_model_bytes": 576,
+  "per_specialist_meta_bytes": 1023,
+  "index_bytes": 9599,
+  "storage_bytes": 25626,
+  "routing_seconds_per_row": 1.0792209995997836e-06,
+  "load_and_predict_seconds_median": 0.0013590455000667134,
+  "load_and_predict_seconds_min": 0.001176151999970898,
+  "specialist_process_peak_rss_kb": 2292,
+  "true_process_peak_rss_kb": 1376,
+  "specialist_working_set_bytes": 1300,
+  "orchestrator_rss_kb": 52904,
+  "resident_specialists_between_calls_by_construction": 0
+ },
+ "batch": {
+  "rows": 1000,
+  "active_specialists_during_batch": 10,
+  "seconds": {
+   "total": 0.034973402000105125,
+   "routing": 0.0013475200003085774,
+   "invocation": 0.0174531870006831,
+   "orchestration": 0.016172694999113446
+  },
+  "processes": 234
+ }
+}

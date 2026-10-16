@@ -1,0 +1,54 @@
+{
+ "stage": "stretch",
+ "seed": 1,
+ "supervision": "labels for buffered inputs come from the environment (the synthetic teacher), i.e. external supervision, disclosed",
+ "steps": [
+  {
+   "step": 0,
+   "unsupported_rate": 1.0,
+   "accuracy_on_supported": null,
+   "buffer": 120
+  },
+  {
+   "step": 1,
+   "unsupported_rate": 1.0,
+   "accuracy_on_supported": null,
+   "buffer": 240,
+   "spawned": "spawned_0",
+   "from_rows": 90
+  },
+  {
+   "step": 2,
+   "unsupported_rate": 0.5583333333333333,
+   "accuracy_on_supported": 0.7735849056603774,
+   "buffer": 217,
+   "spawned": "spawned_1",
+   "from_rows": 28
+  },
+  {
+   "step": 3,
+   "unsupported_rate": 0.5166666666666667,
+   "accuracy_on_supported": 0.6206896551724138,
+   "buffer": 251,
+   "spawned": "spawned_2",
+   "from_rows": 201
+  },
+  {
+   "step": 4,
+   "unsupported_rate": 0.03333333333333333,
+   "accuracy_on_supported": 0.8275862068965517,
+   "buffer": 54
+  }
+ ],
+ "final": {
+  "spawned": [
+   "spawned_0",
+   "spawned_1",
+   "spawned_2"
+  ],
+  "unsupported_rate": 0.065,
+  "accuracy": 0.74,
+  "accuracy_domain10": 0.6,
+  "accuracy_domain11": 0.88
+ }
+}

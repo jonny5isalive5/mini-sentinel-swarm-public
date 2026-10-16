@@ -1,0 +1,219 @@
+{
+ "stage": 3,
+ "seed": 1,
+ "experts": {
+  "s0000a": {
+   "domain": 0,
+   "condition": "normal",
+   "val_acc": 0.86
+  },
+  "s0000b": {
+   "domain": 0,
+   "condition": "normal",
+   "val_acc": 0.82
+  },
+  "s0000c": {
+   "domain": 0,
+   "condition": "noisy",
+   "val_acc": 0.77
+  },
+  "s0001a": {
+   "domain": 1,
+   "condition": "normal",
+   "val_acc": 0.94
+  },
+  "s0001b": {
+   "domain": 1,
+   "condition": "normal",
+   "val_acc": 0.95
+  },
+  "s0001c": {
+   "domain": 1,
+   "condition": "noisy",
+   "val_acc": 0.8
+  },
+  "s0002a": {
+   "domain": 2,
+   "condition": "normal",
+   "val_acc": 0.92
+  },
+  "s0002b": {
+   "domain": 2,
+   "condition": "normal",
+   "val_acc": 0.95
+  },
+  "s0002c": {
+   "domain": 2,
+   "condition": "noisy",
+   "val_acc": 0.72
+  }
+ },
+ "results": {
+  "normal": {
+   "single_specialist": {
+    "n": 450,
+    "task_acc": 0.82,
+    "routing_acc": 1.0,
+    "unsupported": 0.0,
+    "disagreement": 0.0,
+    "acc_when_routed": 0.82
+   },
+   "arbitration_k3": {
+    "n": 450,
+    "task_acc": 0.8688888888888889,
+    "routing_acc": 1.0,
+    "unsupported": 0.0,
+    "disagreement": 0.03333333333333333,
+    "acc_when_routed": 0.8688888888888889
+   },
+   "disagreement_rate": 0.03333333333333333,
+   "accuracy_on_disagreements": 0.4666666666666667,
+   "accuracy_on_agreements": 0.8827586206896552,
+   "example_disagreement": {
+    "selected": "s0000c",
+    "alternatives": [
+     [
+      "s0000a",
+      0.664
+     ],
+     [
+      "s0000b",
+      0.73
+     ]
+    ],
+    "contributions": [
+     {
+      "id": "s0000b",
+      "sha256": "f9c59dd0056b1674",
+      "cls": 3,
+      "conf": 0.695,
+      "weight": 0.2747,
+      "rel_dist": 0.73
+     },
+     {
+      "id": "s0000c",
+      "sha256": "872cefc847f0ef49",
+      "cls": 1,
+      "conf": 0.571,
+      "weight": 0.2457,
+      "rel_dist": 0.582
+     },
+     {
+      "id": "s0000a",
+      "sha256": "de5e99fb3cf30455",
+      "cls": 2,
+      "conf": 0.655,
+      "weight": 0.2901,
+      "rel_dist": 0.664
+     }
+    ],
+    "answer": 2,
+    "class_weights": {
+     "3": 0.27466052934216273,
+     "1": 0.245690126865159,
+     "2": 0.2900600788775013
+    },
+    "status": "disagreement",
+    "disagreement": {
+     "3": 0.2747,
+     "1": 0.2457,
+     "2": 0.2901
+    }
+   },
+   "per_expert": {
+    "s0000a": 0.84,
+    "s0000b": 0.82,
+    "s0000c": 0.6933333333333334,
+    "s0001a": 0.88,
+    "s0001b": 0.8866666666666667,
+    "s0001c": 0.8333333333333334,
+    "s0002a": 0.8466666666666667,
+    "s0002b": 0.8466666666666667,
+    "s0002c": 0.7733333333333333
+   }
+  },
+  "edge": {
+   "single_specialist": {
+    "n": 450,
+    "task_acc": 0.5555555555555556,
+    "routing_acc": 1.0,
+    "unsupported": 0.0,
+    "disagreement": 0.0,
+    "acc_when_routed": 0.5555555555555556
+   },
+   "arbitration_k3": {
+    "n": 450,
+    "task_acc": 0.56,
+    "routing_acc": 1.0,
+    "unsupported": 0.0,
+    "disagreement": 0.08222222222222222,
+    "acc_when_routed": 0.56
+   },
+   "disagreement_rate": 0.08222222222222222,
+   "accuracy_on_disagreements": 0.4594594594594595,
+   "accuracy_on_agreements": 0.5690072639225182,
+   "example_disagreement": {
+    "selected": "s0000a",
+    "alternatives": [
+     [
+      "s0000b",
+      0.549
+     ],
+     [
+      "s0000c",
+      0.468
+     ]
+    ],
+    "contributions": [
+     {
+      "id": "s0000a",
+      "sha256": "de5e99fb3cf30455",
+      "cls": 2,
+      "conf": 0.599,
+      "weight": 0.3088,
+      "rel_dist": 0.512
+     },
+     {
+      "id": "s0000b",
+      "sha256": "f9c59dd0056b1674",
+      "cls": 0,
+      "conf": 0.65,
+      "weight": 0.3079,
+      "rel_dist": 0.549
+     },
+     {
+      "id": "s0000c",
+      "sha256": "872cefc847f0ef49",
+      "cls": 1,
+      "conf": 0.438,
+      "weight": 0.2111,
+      "rel_dist": 0.468
+     }
+    ],
+    "answer": 2,
+    "class_weights": {
+     "2": 0.3088445306403315,
+     "0": 0.30785414466474154,
+     "1": 0.2111329175284035
+    },
+    "status": "disagreement",
+    "disagreement": {
+     "2": 0.3088,
+     "0": 0.3079,
+     "1": 0.2111
+    }
+   },
+   "per_expert": {
+    "s0000a": 0.5333333333333333,
+    "s0000b": 0.5333333333333333,
+    "s0000c": 0.41333333333333333,
+    "s0001a": 0.5066666666666667,
+    "s0001b": 0.48,
+    "s0001c": 0.5133333333333333,
+    "s0002a": 0.6,
+    "s0002b": 0.58,
+    "s0002c": 0.62
+   }
+  }
+ }
+}

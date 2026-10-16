@@ -1,0 +1,79 @@
+{
+ "stage": 4,
+ "seed": 1,
+ "table": [
+  [
+   0,
+   1,
+   2,
+   1
+  ],
+  [
+   2,
+   2,
+   3,
+   3
+  ],
+  [
+   1,
+   3,
+   0,
+   1
+  ],
+  [
+   3,
+   3,
+   2,
+   2
+  ]
+ ],
+ "swarm": {
+  "accuracy": 0.764,
+  "unsupported": 0.018,
+  "stage_a_accuracy": 0.872,
+  "stage_b_accuracy": 0.85,
+  "seconds": 0.045813663999979326,
+  "example": {
+   "input_halves": [
+    "s0006",
+    "s0004"
+   ],
+   "device_states": [
+    2,
+    0
+   ],
+   "composed": 1,
+   "truth": 1
+  }
+ },
+ "baselines": {
+  "single_brain_20-16-4": {
+   "accuracy": 0.424,
+   "bytes": 976,
+   "train_rows": 5000,
+   "epochs": 100
+  },
+  "single_brain_20-64-4": {
+   "accuracy": 0.438,
+   "bytes": 3376,
+   "train_rows": 5000,
+   "epochs": 100
+  },
+  "single_brain_20-256-4": {
+   "accuracy": 0.448,
+   "bytes": 12976,
+   "train_rows": 5000,
+   "epochs": 100
+  },
+  "one_brain_10-16-4_on_device_states_then_table": {
+   "accuracy": 0.56,
+   "stage_a_accuracy": 0.69,
+   "stage_b_accuracy": 0.662,
+   "bytes": 576,
+   "train_rows": 5000,
+   "epochs": 60
+  }
+ },
+ "disclosure": "the composition layer is given the 4x4 table (an oracle); the specialists were trained with device-state labels (intermediate supervision); the direct baselines only ever saw composed labels",
+ "single_specialist_alone": "structurally impossible: a specialist takes 10 inputs, the compound input has 20"
+}

@@ -1,0 +1,30 @@
+{
+ "stage": 1,
+ "seed": 1,
+ "initial_sha256": {
+  "canonical": "44bedb8b3d01e61a86f8a427c369ee0fdb74817ade730b4a1c0695d84da83cf5",
+  "A": "44bedb8b3d01e61a86f8a427c369ee0fdb74817ade730b4a1c0695d84da83cf5",
+  "B": "44bedb8b3d01e61a86f8a427c369ee0fdb74817ade730b4a1c0695d84da83cf5",
+  "C": "44bedb8b3d01e61a86f8a427c369ee0fdb74817ade730b4a1c0695d84da83cf5"
+ },
+ "identical_at_start": true,
+ "trained_sha256": {
+  "A": "f98844c597c699ad26da62af997627617d0ecdba3809c0732ab22b784f021463",
+  "B": "97d29657e4a8bb29c420791b11fbe5c193f3d95f0b59e39fb650460e2a74eb00",
+  "C": "f98844c597c699ad26da62af997627617d0ecdba3809c0732ab22b784f021463"
+ },
+ "A_differs_from_B": true,
+ "A_equals_C_same_experience": true,
+ "accuracy": {
+  "A_on_domain0": 0.8433333333333334,
+  "A_on_domain1": 0.2733333333333333,
+  "B_on_domain0": 0.17666666666666667,
+  "B_on_domain1": 0.87,
+  "canonical_on_domain0": 0.08,
+  "canonical_on_domain1": 0.26
+ },
+ "fraction_of_domain0_inputs_where_A_and_B_disagree": 0.83,
+ "restart_identical_outputs": true,
+ "sha256_unchanged_by_use": true,
+ "model_bytes": 576
+}

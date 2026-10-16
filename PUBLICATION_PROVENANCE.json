@@ -1,0 +1,285 @@
+{
+  "project": "mini-sentinel-swarm",
+  "source_snapshot_commit": "c50f5e6baaaddedd5dbc8298d1d50f54060f6be6",
+  "original_history_included": false,
+  "source_snapshot_files": [
+    {
+      "original_path": "HISTORY.md",
+      "publication_path": "HISTORY.md",
+      "original_sha256": "5168a0caaf97bef68fa2945154b73ee1ac97fe0c5e250a99b141db2d0787297c",
+      "publication_sha256": "f9602b89ccaaf999cf98750ddfacef0744ba4eeb37c898535ed7016fef850e8b",
+      "modified": true,
+      "reason": "Privacy/documentation update"
+    },
+    {
+      "original_path": "PROVENANCE.md",
+      "publication_path": "PROVENANCE.md",
+      "original_sha256": "5419f59f2b553c762d35e9d63233f6bc47f19345937d90d522bd72c5b0eaec26",
+      "publication_sha256": "9d62b358d822b19746cb9f044d14625445e0dc5935f504c77790101c5d5f3ef5",
+      "modified": true,
+      "reason": "Privacy/documentation update"
+    },
+    {
+      "original_path": "README.md",
+      "publication_path": "README.md",
+      "original_sha256": "15da2b2df2266e166b98b33f4438e6373c69ba0f37452e66f12adfe5abb5e5ea",
+      "publication_sha256": "a3417d9560ccca9f0c7f349a11cf549c8d036175efce119de48943f6ac686d90",
+      "modified": true,
+      "reason": "Privacy/documentation update"
+    },
+    {
+      "original_path": "flat-swarm-v1/.gitignore",
+      "publication_path": "flat-swarm-v1/.gitignore",
+      "original_sha256": "cc54ed0bd3ddcf80a59b13dff3f57597603cca25f233e849dc56aaa24944451f",
+      "publication_sha256": "cc54ed0bd3ddcf80a59b13dff3f57597603cca25f233e849dc56aaa24944451f",
+      "modified": false,
+      "reason": "Unchanged"
+    },
+    {
+      "original_path": "flat-swarm-v1/FAILURES.md",
+      "publication_path": "flat-swarm-v1/FAILURES.md",
+      "original_sha256": "02b93dcaa3421b365f14f39e8bee413ec0f3cd1cfeb939c01ead36a6d810f997",
+      "publication_sha256": "02b93dcaa3421b365f14f39e8bee413ec0f3cd1cfeb939c01ead36a6d810f997",
+      "modified": false,
+      "reason": "Unchanged"
+    },
+    {
+      "original_path": "flat-swarm-v1/FINAL.md",
+      "publication_path": "flat-swarm-v1/FINAL.md",
+      "original_sha256": "b1834c4fde063c477dce689b8b9a8779318696e0735e7f8bb76e9bc5d6ba0900",
+      "publication_sha256": "b1834c4fde063c477dce689b8b9a8779318696e0735e7f8bb76e9bc5d6ba0900",
+      "modified": false,
+      "reason": "Unchanged"
+    },
+    {
+      "original_path": "flat-swarm-v1/README.md",
+      "publication_path": "flat-swarm-v1/README.md",
+      "original_sha256": "e0a28231d6c897fe09177d45427264c92622c3f81800e222e461501a39d278b7",
+      "publication_sha256": "e0a28231d6c897fe09177d45427264c92622c3f81800e222e461501a39d278b7",
+      "modified": false,
+      "reason": "Unchanged"
+    },
+    {
+      "original_path": "flat-swarm-v1/report.py",
+      "publication_path": "flat-swarm-v1/report.py",
+      "original_sha256": "61ea779d71c327b35225b23d78b1aaaffa0d64c919a8a46ceeb2a85c1b51da6b",
+      "publication_sha256": "61ea779d71c327b35225b23d78b1aaaffa0d64c919a8a46ceeb2a85c1b51da6b",
+      "modified": false,
+      "reason": "Unchanged"
+    },
+    {
+      "original_path": "flat-swarm-v1/run_all.sh",
+      "publication_path": "flat-swarm-v1/run_all.sh",
+      "original_sha256": "528a20c0f40c6d3e190febf3779222934632db9390d8d1000a87e15cbb5e1cd6",
+      "publication_sha256": "528a20c0f40c6d3e190febf3779222934632db9390d8d1000a87e15cbb5e1cd6",
+      "modified": false,
+      "reason": "Unchanged"
+    },
+    {
+      "original_path": "flat-swarm-v1/swarm.py",
+      "publication_path": "flat-swarm-v1/swarm.py",
+      "original_sha256": "c6da4e245af775a6d7389ce4e0f6029674d3f41c1070b7ebda265daad95aa733",
+      "publication_sha256": "c6da4e245af775a6d7389ce4e0f6029674d3f41c1070b7ebda265daad95aa733",
+      "modified": false,
+      "reason": "Unchanged"
+    },
+    {
+      "original_path": "uai32/README.md",
+      "publication_path": "uai32/README.md",
+      "original_sha256": "b9498c77d0871bd255f4b74f27bd2e92e9dc4427c8e365723bafa05560515006",
+      "publication_sha256": "11eab44bd32cfa6d6d047d962b7bd98bb14bf22837e1545bba95a3c7565dd7cf",
+      "modified": true,
+      "reason": "Privacy/documentation update"
+    },
+    {
+      "original_path": "uai32/uai32.c",
+      "publication_path": "uai32/uai32.c",
+      "original_sha256": "db1fb48dade929f1b53e416ee473fb6e413e708febbf211489a59e66815fabcd",
+      "publication_sha256": "db1fb48dade929f1b53e416ee473fb6e413e708febbf211489a59e66815fabcd",
+      "modified": false,
+      "reason": "Unchanged"
+    },
+    {
+      "original_path": "uai32/dist/SHA256SUMS",
+      "publication_path": "uai32/dist/SHA256SUMS",
+      "original_sha256": "c3cd5cb4edcf21744bfff3f218000a14b9abcb3a825bb6f4b329fc696d8b35c5",
+      "publication_sha256": "c3cd5cb4edcf21744bfff3f218000a14b9abcb3a825bb6f4b329fc696d8b35c5",
+      "modified": false,
+      "reason": "Unchanged"
+    },
+    {
+      "original_path": "uai32/dist/uai32",
+      "publication_path": "uai32/dist/uai32",
+      "original_sha256": "996d73cba9676e8932206b9c80493becde6d04b6a57b70839999b0824c0186cb",
+      "publication_sha256": "996d73cba9676e8932206b9c80493becde6d04b6a57b70839999b0824c0186cb",
+      "modified": false,
+      "reason": "Unchanged"
+    },
+    {
+      "original_path": "flat-swarm-v1/results/REPORT.md",
+      "publication_path": "flat-swarm-v1/results/REPORT.md",
+      "original_sha256": "3f57be8b4102436e327c90f45d2ed98c93a126aa14b384899412d864d02f7bfb",
+      "publication_sha256": "3f57be8b4102436e327c90f45d2ed98c93a126aa14b384899412d864d02f7bfb",
+      "modified": false,
+      "reason": "Unchanged"
+    },
+    {
+      "original_path": "flat-swarm-v1/results/stage1.json",
+      "publication_path": "flat-swarm-v1/results/stage1.json",
+      "original_sha256": "fccfd5a4ebf1313b4a8013ed31787fd25e0e3ff36a2615a1937992d33a6b11f3",
+      "publication_sha256": "fccfd5a4ebf1313b4a8013ed31787fd25e0e3ff36a2615a1937992d33a6b11f3",
+      "modified": false,
+      "reason": "Unchanged"
+    },
+    {
+      "original_path": "flat-swarm-v1/results/stage2.json",
+      "publication_path": "flat-swarm-v1/results/stage2.json",
+      "original_sha256": "9145c39ec677cc106458d16f315e5c8512d0f58aa68f265e8b482a9da39f936a",
+      "publication_sha256": "9145c39ec677cc106458d16f315e5c8512d0f58aa68f265e8b482a9da39f936a",
+      "modified": false,
+      "reason": "Unchanged"
+    },
+    {
+      "original_path": "flat-swarm-v1/results/stage2_provenance.jsonl",
+      "publication_path": "flat-swarm-v1/results/stage2_provenance.jsonl",
+      "original_sha256": "1d0c3d005f220ddf6916ee1feeb9f7d0c78bf4160b9232b53182ff78ab447f8c",
+      "publication_sha256": "1d0c3d005f220ddf6916ee1feeb9f7d0c78bf4160b9232b53182ff78ab447f8c",
+      "modified": false,
+      "reason": "Unchanged"
+    },
+    {
+      "original_path": "flat-swarm-v1/results/stage3.json",
+      "publication_path": "flat-swarm-v1/results/stage3.json",
+      "original_sha256": "30fccbcecda4ecec1dd06e7148eb4aae8fd018f640d2739ee5a69916a356fcbd",
+      "publication_sha256": "30fccbcecda4ecec1dd06e7148eb4aae8fd018f640d2739ee5a69916a356fcbd",
+      "modified": false,
+      "reason": "Unchanged"
+    },
+    {
+      "original_path": "flat-swarm-v1/results/stage4.json",
+      "publication_path": "flat-swarm-v1/results/stage4.json",
+      "original_sha256": "5e71e46b80825ba36b9bec9fa3328c75845b2bf0cf8f6508dc04798a8310549e",
+      "publication_sha256": "5e71e46b80825ba36b9bec9fa3328c75845b2bf0cf8f6508dc04798a8310549e",
+      "modified": false,
+      "reason": "Unchanged"
+    },
+    {
+      "original_path": "flat-swarm-v1/results/stage5.json",
+      "publication_path": "flat-swarm-v1/results/stage5.json",
+      "original_sha256": "99e46349e48e33f93c92eb8c21d591eece4c6a885e674c341e057bb0b78e61fc",
+      "publication_sha256": "99e46349e48e33f93c92eb8c21d591eece4c6a885e674c341e057bb0b78e61fc",
+      "modified": false,
+      "reason": "Unchanged"
+    },
+    {
+      "original_path": "flat-swarm-v1/results/stage6.json",
+      "publication_path": "flat-swarm-v1/results/stage6.json",
+      "original_sha256": "6d04c4157d3f7d79c5234eeb9348f8073319808054aa47ed68edba77047c02bf",
+      "publication_sha256": "6d04c4157d3f7d79c5234eeb9348f8073319808054aa47ed68edba77047c02bf",
+      "modified": false,
+      "reason": "Unchanged"
+    },
+    {
+      "original_path": "flat-swarm-v1/results/stage6.log",
+      "publication_path": "flat-swarm-v1/results/stage6.log",
+      "original_sha256": "abb78786dbd6325917dd22fa1c31b5cb466ccca843e62ab43b0fb326cb118eb5",
+      "publication_sha256": "f9cbfb0a78b9b66d5dea434e443c3469c5c9f1362e458f8b37832172e87c596e",
+      "modified": true,
+      "reason": "Privacy/documentation update"
+    },
+    {
+      "original_path": "flat-swarm-v1/results/stage6_superseded_old_router.json",
+      "publication_path": "flat-swarm-v1/results/stage6_superseded_old_router.json",
+      "original_sha256": "63594be6f5d9a1a3396be639aac51583b6a86775214ffda6aac842a978986871",
+      "publication_sha256": "63594be6f5d9a1a3396be639aac51583b6a86775214ffda6aac842a978986871",
+      "modified": false,
+      "reason": "Unchanged"
+    },
+    {
+      "original_path": "flat-swarm-v1/results/stage6_superseded_old_router.log",
+      "publication_path": "flat-swarm-v1/results/stage6_superseded_old_router.log",
+      "original_sha256": "62d8c232f49763764d39b5355711cdb4da974f7171650a22801cda9cf38735c8",
+      "publication_sha256": "9fab070ad4210b96ddf272f1f80dc86e32217eb4d490ebbd7ee88955a189b105",
+      "modified": true,
+      "reason": "Privacy/documentation update"
+    },
+    {
+      "original_path": "flat-swarm-v1/results/stage6_superseded_unchunked_router.json",
+      "publication_path": "flat-swarm-v1/results/stage6_superseded_unchunked_router.json",
+      "original_sha256": "5d1e06c8605b91d2ff975c7c9b1bc48662f31f294f4f01ce65e1b5d70630ec3b",
+      "publication_sha256": "5d1e06c8605b91d2ff975c7c9b1bc48662f31f294f4f01ce65e1b5d70630ec3b",
+      "modified": false,
+      "reason": "Unchanged"
+    },
+    {
+      "original_path": "flat-swarm-v1/results/stage6_superseded_unchunked_router.log",
+      "publication_path": "flat-swarm-v1/results/stage6_superseded_unchunked_router.log",
+      "original_sha256": "91eef6358aa0cf9d8e56fc6e36008291fc03ef72b2697cbb5986b9016ed9143a",
+      "publication_sha256": "b49944eaacc1e956351c709cddbd32ec0c213d51610bfd9ab342ab8d261162e6",
+      "modified": true,
+      "reason": "Privacy/documentation update"
+    },
+    {
+      "original_path": "flat-swarm-v1/results/stage7.json",
+      "publication_path": "flat-swarm-v1/results/stage7.json",
+      "original_sha256": "b06dba8c028b704a5dc17b622ec51bb101dca234e2abc4c66f7ff852013278f6",
+      "publication_sha256": "b06dba8c028b704a5dc17b622ec51bb101dca234e2abc4c66f7ff852013278f6",
+      "modified": false,
+      "reason": "Unchanged"
+    },
+    {
+      "original_path": "flat-swarm-v1/results/stage8.json",
+      "publication_path": "flat-swarm-v1/results/stage8.json",
+      "original_sha256": "5fa4cb450d9da0fc9ccc93b498573e36aa5e7b9be2b7c37be2493630a2402cbc",
+      "publication_sha256": "5fa4cb450d9da0fc9ccc93b498573e36aa5e7b9be2b7c37be2493630a2402cbc",
+      "modified": false,
+      "reason": "Unchanged"
+    },
+    {
+      "original_path": "flat-swarm-v1/results/stretch.json",
+      "publication_path": "flat-swarm-v1/results/stretch.json",
+      "original_sha256": "5b547d51a5797f924b8b687aab1f26b527d34ab2f73e00420ff77a7466894dfe",
+      "publication_sha256": "5b547d51a5797f924b8b687aab1f26b527d34ab2f73e00420ff77a7466894dfe",
+      "modified": false,
+      "reason": "Unchanged"
+    },
+    {
+      "original_path": "flat-swarm-v1/tools/maxrss.c",
+      "publication_path": "flat-swarm-v1/tools/maxrss.c",
+      "original_sha256": "77c0603eb3bf94a500a125baed9cf127d0678d39f933dfb029e5d94774cf2ce8",
+      "publication_sha256": "77c0603eb3bf94a500a125baed9cf127d0678d39f933dfb029e5d94774cf2ce8",
+      "modified": false,
+      "reason": "Unchanged"
+    }
+  ],
+  "archive_members": [],
+  "protected_unchanged_paths": [
+    "flat-swarm-v1/report.py",
+    "flat-swarm-v1/run_all.sh",
+    "flat-swarm-v1/swarm.py",
+    "uai32/uai32.c",
+    "uai32/dist/SHA256SUMS",
+    "uai32/dist/uai32",
+    "flat-swarm-v1/results/stage1.json",
+    "flat-swarm-v1/results/stage2.json",
+    "flat-swarm-v1/results/stage2_provenance.jsonl",
+    "flat-swarm-v1/results/stage3.json",
+    "flat-swarm-v1/results/stage4.json",
+    "flat-swarm-v1/results/stage5.json",
+    "flat-swarm-v1/results/stage6.json",
+    "flat-swarm-v1/results/stage6_superseded_old_router.json",
+    "flat-swarm-v1/results/stage6_superseded_unchunked_router.json",
+    "flat-swarm-v1/results/stage7.json",
+    "flat-swarm-v1/results/stage8.json",
+    "flat-swarm-v1/results/stretch.json",
+    "flat-swarm-v1/tools/maxrss.c"
+  ],
+  "new_files": [
+    ".gitattributes",
+    "PUBLICATION_NOTES.md",
+    "uai32/LICENSE",
+    "uai32/NOTICE",
+    "verify_publication.py"
+  ],
+  "experiments_rerun": false
+}

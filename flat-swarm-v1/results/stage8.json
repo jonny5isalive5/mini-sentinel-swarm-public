@@ -1,0 +1,49 @@
+{
+ "stage": 8,
+ "seed": 1,
+ "continued_training": {
+  "s0003_before": 0.8933333333333333,
+  "s0003_after": 0.8666666666666667,
+  "s0003_sha_changed": true,
+  "others_unchanged": true
+ },
+ "forgetting": {
+  "s0003_on_domain3_after_learning_domain7": 0.32666666666666666,
+  "s0003_on_domain7": 0.8266666666666667,
+  "note": "no replay or regularisation exists in uai32; this is the raw effect"
+ },
+ "retrained": {
+  "s0003_on_domain3": 0.8566666666666667,
+  "version": 4
+ },
+ "failed_expert": {
+  "verify_false": true,
+  "rows_unsupported_while_corrupt": 1.0,
+  "accuracy_after_replacement": 0.96,
+  "version": 2
+ },
+ "clone": {
+  "same_sha": true,
+  "identical_outputs": true
+ },
+ "branch": {
+  "parent_sha": "01bbf10c4045f76c",
+  "branches": {
+   "s0002_noisy": "2c80240e6465c21c",
+   "s0002_shifted": "6589f2a8259d24aa"
+  },
+  "all_distinct": true,
+  "accuracy": {
+   "parent_on_noisy": 0.7633333333333333,
+   "noisy_branch_on_noisy": 0.71,
+   "parent_on_shifted": 0.8233333333333334,
+   "shifted_branch_on_shifted": 0.92,
+   "noisy_branch_on_shifted": 0.7
+  }
+ },
+ "removal": {
+  "before": 13,
+  "after": 12,
+  "file_gone": true
+ }
+}

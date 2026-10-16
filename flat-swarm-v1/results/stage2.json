@@ -1,0 +1,232 @@
+{
+ "stage": 2,
+ "seed": 1,
+ "build_seconds": 0.32092449700030556,
+ "specialists": {
+  "s0000": {
+   "domain": 0,
+   "val_acc": 0.9,
+   "sha256": "8ab34cd1f6369b94",
+   "bytes": 576,
+   "radius": 1.454
+  },
+  "s0001": {
+   "domain": 1,
+   "val_acc": 0.9,
+   "sha256": "f6e5c66b6e725443",
+   "bytes": 576,
+   "radius": 1.391
+  },
+  "s0002": {
+   "domain": 2,
+   "val_acc": 0.94,
+   "sha256": "4940b018e5019efe",
+   "bytes": 576,
+   "radius": 1.412
+  },
+  "s0003": {
+   "domain": 3,
+   "val_acc": 0.91,
+   "sha256": "643086881af14bde",
+   "bytes": 576,
+   "radius": 1.415
+  },
+  "s0004": {
+   "domain": 4,
+   "val_acc": 0.92,
+   "sha256": "981b68bc524bb73c",
+   "bytes": 576,
+   "radius": 1.381
+  },
+  "s0005": {
+   "domain": 5,
+   "val_acc": 0.88,
+   "sha256": "e1ebb2491282a5cf",
+   "bytes": 576,
+   "radius": 1.423
+  },
+  "s0006": {
+   "domain": 6,
+   "val_acc": 0.98,
+   "sha256": "69ca06177aadfb64",
+   "bytes": 576,
+   "radius": 1.477
+  },
+  "s0007": {
+   "domain": 7,
+   "val_acc": 0.88,
+   "sha256": "8146368c333bcbff",
+   "bytes": 576,
+   "radius": 1.458
+  },
+  "s0008": {
+   "domain": 8,
+   "val_acc": 0.84,
+   "sha256": "3ca7e27375bbdca9",
+   "bytes": 576,
+   "radius": 1.428
+  },
+  "s0009": {
+   "domain": 9,
+   "val_acc": 0.94,
+   "sha256": "fe1328aaa192e731",
+   "bytes": 576,
+   "radius": 1.416
+  }
+ },
+ "in_domain": {
+  "n": 1000,
+  "task_acc": 0.831,
+  "routing_acc": 0.989,
+  "unsupported": 0.011,
+  "disagreement": 0.0,
+  "acc_when_routed": 0.840242669362993
+ },
+ "unknown_domains_unsupported_rate": 1.0,
+ "noise_unsupported_rate": 1.0,
+ "example_records": [
+  {
+   "selected": "s0000",
+   "alternatives": [
+    [
+     "s0008",
+     7.589
+    ],
+    [
+     "s0003",
+     8.642
+    ]
+   ],
+   "contributions": [
+    {
+     "id": "s0000",
+     "sha256": "8ab34cd1f6369b94",
+     "cls": 0,
+     "conf": 0.928,
+     "weight": 0.4448,
+     "rel_dist": 0.63
+    }
+   ],
+   "answer": 0,
+   "class_weights": {
+    "0": 0.4448088894527757
+   },
+   "status": "routed"
+  },
+  {
+   "selected": "s0000",
+   "alternatives": [
+    [
+     "s0008",
+     7.687
+    ],
+    [
+     "s0003",
+     8.725
+    ]
+   ],
+   "contributions": [
+    {
+     "id": "s0000",
+     "sha256": "8ab34cd1f6369b94",
+     "cls": 3,
+     "conf": 0.953,
+     "weight": 0.4292,
+     "rel_dist": 0.692
+    }
+   ],
+   "answer": 3,
+   "class_weights": {
+    "3": 0.4291918883275785
+   },
+   "status": "routed"
+  },
+  {
+   "selected": "s0000",
+   "alternatives": [
+    [
+     "s0008",
+     7.929
+    ],
+    [
+     "s0003",
+     8.739
+    ]
+   ],
+   "contributions": [
+    {
+     "id": "s0000",
+     "sha256": "8ab34cd1f6369b94",
+     "cls": 2,
+     "conf": 0.794,
+     "weight": 0.381,
+     "rel_dist": 0.629
+    }
+   ],
+   "answer": 2,
+   "class_weights": {
+    "2": 0.3810204462876809
+   },
+   "status": "routed"
+  },
+  {
+   "selected": null,
+   "alternatives": [],
+   "contributions": [],
+   "status": "unsupported",
+   "nearest_rel_dist": 5.133
+  }
+ ],
+ "per_specialist_accuracy": {
+  "s0000": {
+   "rows_routed": 100,
+   "accuracy": 0.82,
+   "own_domain_rows": 100
+  },
+  "s0001": {
+   "rows_routed": 97,
+   "accuracy": 0.8556701030927835,
+   "own_domain_rows": 100
+  },
+  "s0002": {
+   "rows_routed": 100,
+   "accuracy": 0.84,
+   "own_domain_rows": 100
+  },
+  "s0003": {
+   "rows_routed": 99,
+   "accuracy": 0.8484848484848485,
+   "own_domain_rows": 100
+  },
+  "s0004": {
+   "rows_routed": 98,
+   "accuracy": 0.8061224489795918,
+   "own_domain_rows": 100
+  },
+  "s0005": {
+   "rows_routed": 98,
+   "accuracy": 0.8979591836734694,
+   "own_domain_rows": 100
+  },
+  "s0006": {
+   "rows_routed": 100,
+   "accuracy": 0.88,
+   "own_domain_rows": 100
+  },
+  "s0007": {
+   "rows_routed": 99,
+   "accuracy": 0.797979797979798,
+   "own_domain_rows": 100
+  },
+  "s0008": {
+   "rows_routed": 100,
+   "accuracy": 0.8,
+   "own_domain_rows": 100
+  },
+  "s0009": {
+   "rows_routed": 98,
+   "accuracy": 0.8571428571428571,
+   "own_domain_rows": 100
+  }
+ }
+}

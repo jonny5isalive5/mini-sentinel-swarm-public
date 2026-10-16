@@ -1,0 +1,11 @@
+uai32: /audit-workspace/uai32-swarm/../uai32/dist/uai32 (9188 bytes, sha256 996d73cba9676e89)
+== stage 6
+  -> results/stage6.json
+  N=2: task acc 0.840 routing 1.000 unsupported 0.000 | mini monolith 0.800 | equal-storage 0.810 (NH=35)
+  -> results/stage6.json
+  N=10: task acc 0.832 routing 0.978 unsupported 0.022 | mini monolith 0.700 | equal-storage 0.790 (NH=188)
+  -> results/stage6.json
+  N=100: task acc 0.851 routing 0.990 unsupported 0.010 | mini monolith 0.335 | equal-storage 0.635 (NH=1916)
+  -> results/stage6.json
+  N=1000: task acc 0.843 routing 0.987 unsupported 0.012 | mini monolith 0.260 | equal-storage 0.302 (NH=2048)
+   772.7 s, 3054 uai32 processes so far

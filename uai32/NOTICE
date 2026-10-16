@@ -1,0 +1,14 @@
+Sentovara µAI-32
+Copyright 2026 Sentovara µAI-32 contributors
+
+Audited implementation: 3e924e600ef6b65eff9f00668cb283b259930049
+Project code and release documentation in uai32/ are licensed under the Apache
+License, Version 2.0. See LICENSE. Dataset terms remain separate. Host libraries
+and development tools are not bundled or relicensed.
+
+Recorded engineering contributors: OpenAI GPT-5.6 Sol, Anthropic Fable 5.1 and
+OpenAI Codex. Project direction and release stewardship: Sentovara.
+
+This publication copy has documentation and privacy redactions listed in
+PUBLICATION_PROVENANCE.json at the repository root. Original audit records are
+retained privately. The executable, model bytes and computational source are unchanged.
